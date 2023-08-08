@@ -1,0 +1,44 @@
+#sun{
+    background-color: red;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: orange;
+    animation-name:sunanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-delay: 3s;
+   
+}
+@keyframes sunanimation{
+    0%{
+        background-color: red;
+        transform: translateY(300px);
+    }
+    20%{
+        background-color:rgb(39, 231, 103);
+        transform:translateY(250px) ;
+    }
+    40%{
+        background-color: rgb(177, 82, 190);
+        transform: translateY(200px);
+
+    }
+     60%{
+        background-color:rgb(199,124,38);
+        transform: translateY(150px)scale(1.5);
+     }
+     80%{
+        background-color: yellow;
+        transform: translateY(100px) rotate(45deg);
+     }
+     100%{
+        background-color: aquamarine;
+        transform: translateY(50px);
+     }
+}
+

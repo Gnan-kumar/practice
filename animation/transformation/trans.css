@@ -1,0 +1,27 @@
+#translate{
+    border: 1px solid blueviolet;
+    /* transform: rotateY('100px');*/
+    /*transform: rotatex('100px');*/
+    
+    transform: translate(50px,10px);
+}
+#rotate{background-color: red;
+    width:100px ;
+    height: 100px;
+    transform: rotate(45deg);
+
+}
+#scale{
+    background-color: red;
+    width:100px ;
+    height: 100px;
+    margin: auto;
+    transform:scale(1.5);
+}
+#skew{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transform: skew(20deg);
+}
+

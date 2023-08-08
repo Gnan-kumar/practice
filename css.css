@@ -1,0 +1,39 @@
+#selectingid{
+    color:blue
+}
+.classSelector{
+    color:red
+}
+#headinggroup{
+    color: rgb(238, 51, 82);
+}
+#headingroup1,.paragroup,.spangroup{
+    color: orange;
+}
+#parent h2, #parent{
+    color: green;
+}
+#highlight:hover{
+    color: greenyellow;
+    background-color: rgb(116, 116, 21);
+}
+#food li:nth-child(o dd){
+    color: rgb(28, 28, 233);
+}
+#food li:nth-child(even){
+    color: orangered;
+}
+#food li:nth-child(4){
+    color: green;
+}
+#nonveg li:first-child{
+    color: rgb(219, 20, 54);
+}
+#nonveg li:nth-last-child(3){
+    color: rgb(211, 211, 22);
+}
+#fristletter::first-letter{
+    color: seagreen;
+    font-size: 50px;
+}
+
